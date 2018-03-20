@@ -2,6 +2,19 @@ TypeScript:
 typescript benefits:
 1)Typescript transpiler coverts typescript code to javascript code.typescript transpiler have a error checking feature.It compiles the code and generate compilation error ,if it finds any synatx error, it hightlights the error before script run.
 2)Typescript use object oriented programming.
-3) To compile typescript code tsc Test.tsc
-4)To run type Test.js
+3) To compile typescript code tsc Test.tsc and To run type Test.js
+4)DataType in Typescript:
+ANY datatype is super set of all data type.
+built-in datatype:1)number2)boolean3)string4)void5)null6)undefined
+user defined types:enums, class, array and interfaces
+5)Variable Declaration
+var name:string = "deba";//declare and intialization
+var name:string;//variable declaration
+var name = "deba" // variable of string type
+var name; // datatype of variable is any
+6)Type asseration:
+var str = '1';
+var str2:number = <number> <any> str;
+console.log(str2) o/p: 1
+
 

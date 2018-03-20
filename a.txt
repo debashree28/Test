@@ -16,5 +16,13 @@ var name; // datatype of variable is any
 var str = '1';
 var str2:number = <number> <any> str;
 console.log(str2) o/p: 1
+7)Inferred Typing in typescript:
+ typescript will find first usages of variable within the code.
+ determine the type to which it has been intially set.
+ the assume same datatype for the variable in rest of code block
+ var num = 2;    // data type inferred as  number 
+console.log("value of num "+num); 
+num = "12";
+console.log(num); // o/p Cannot convert 'string' to 'number'.
 
 

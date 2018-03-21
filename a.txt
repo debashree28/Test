@@ -24,5 +24,9 @@ console.log(str2) o/p: 1
 console.log("value of num "+num); 
 num = "12";
 console.log(num); // o/p Cannot convert 'string' to 'number'.
+8)TypeScript variable scope
+global scope
+class scope
+local scope
 
 

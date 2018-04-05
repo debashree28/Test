@@ -7,3 +7,6 @@ web socket
 =================================================
 web socket facilate communication between user and server.
 example: AJAX 
+RestFul web service
+==============================================
+$http service get , post delete , put methods

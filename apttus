@@ -1,5 +1,9 @@
 datastructure and algorithm
 ===============================================
-binary search tree 
+1.binary search tree 
 data > left data
 data < right data
+web socket
+=================================================
+web socket facilate communication between user and server.
+example: AJAX 

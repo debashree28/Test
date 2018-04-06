@@ -10,3 +10,17 @@ example: AJAX
 RestFul web service
 ==============================================
 $http service get , post delete , put methods
+
+angularjs
+=================================================
+angular directive
+extend html
+reusable component
+The compile() and link() functions define how the directive is to modify the HTML that matched the directive.
+The compile() function is called once for each occurrence of the directive in the HTML page. 
+The compile() function can then do any one-time configuration needed of the element containing the directive.
+
+The compile() function finishes by returning the link() function. 
+The link() function is called every time the element is to be bound to data in the $scope object.
+The compile() function takes two parameters: The element and attributes parameters.
+The link() function takes three parameters: The $scope parameter, the element parameter and the attributes parameter.

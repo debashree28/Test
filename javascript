@@ -45,3 +45,7 @@ function sum(a, b) {
                   getName : function(){ return this.name;}
                  }
  constructor:constructor method special method used for creating and intializing object.
+ 4. why javascript is loosely typed ?
+ javascript is loosely typed because varibale is declared without type. variable type is determined at time variable assignment.
+ var a = 10; ///number
+ 

@@ -30,3 +30,7 @@ class scope
 local scope
 
 
+================================================================
+appmodule is bootstraped in main.js file
+component is nothing but view.
+template is form or html tell angular how to render componet.

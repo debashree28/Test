@@ -53,5 +53,7 @@ function sum(a, b) {
  local scope and global scope
  variable defined outside  the function is global variable.
  variable defined inside the function is local variable.
+ 6.explain event bubbling and event capturing?
+ 
  
  

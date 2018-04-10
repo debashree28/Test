@@ -35,3 +35,13 @@ employee.age = 28;
 employee.getName = function(){
   return this.name;
 }
+3.Difference between Function, Method and Constructor calls in JavaScript.
+function sum(a, b) {
+ return a+b;
+ } 
+ sum(10.20);
+ method: object properties reference to function 
+ var employee = { name: 'xsw',
+                  getName : function(){ return this.name;}
+                 }
+ constructor:constructor method special method used for creating and intializing object.

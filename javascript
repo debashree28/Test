@@ -54,6 +54,8 @@ function sum(a, b) {
  variable defined outside  the function is global variable.
  variable defined inside the function is local variable.
  6.explain event bubbling and event capturing?
+ event capturing : event is captured by outermost element and then propagrated to inner most element.
+ event bubbling: event is handled by innermost element and then propagrated to outer most element.
  
  
  

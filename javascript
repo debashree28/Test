@@ -48,4 +48,10 @@ function sum(a, b) {
  4. why javascript is loosely typed ?
  javascript is loosely typed because varibale is declared without type. variable type is determined at time variable assignment.
  var a = 10; ///number
+ 5.what is scope in javascript?
+ there are two types of scope 
+ local scope and global scope
+ variable defined outside  the function is global variable.
+ variable defined inside the function is local variable.
+ 
  

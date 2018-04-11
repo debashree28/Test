@@ -63,6 +63,9 @@ function sum(a, b) {
  9.what is closure?
  closure is a function inside another function(parent function) and have access to variable that are declared and defined in parent 
  function scope
+ useful for hiding implementation of functionality (encapsulation)
+ 10.what is the drawback of creating true private in javascript?
+ because new copy of method would be created for each instance
  
  
  

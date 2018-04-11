@@ -56,6 +56,13 @@ function sum(a, b) {
  6.explain event bubbling and event capturing?
  event capturing : event is captured by outermost element and then propagrated to inner most element.
  event bubbling: event is handled by innermost element and then propagrated to outer most element.
+ 7.how to convert json object to string?
+ JSON.stringify(myobject);
+ 8.how to convert JSON string to object?
+ JSON.parse(jsonData);
+ 9.what is closure?
+ closure is a function inside another function(parent function) and have access to variable that are declared and defined in parent 
+ function scope
  
  
  

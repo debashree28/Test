@@ -4,3 +4,4 @@ automatic synchronization of data between model amd view.
 3.what is controller in angularjs?
 controller is nothing but javascript function which provides data and logic to html ui.
 it controllers data flow between server and html ui
+4.what is difference between link and compile?

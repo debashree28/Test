@@ -66,6 +66,10 @@ function sum(a, b) {
  useful for hiding implementation of functionality (encapsulation)
  10.what is the drawback of creating true private in javascript?
  because new copy of method would be created for each instance
+ 11.how to archieve inheritance?
+ Pseudo classical inheritance" and "Prototype inheritance"
+ 12.What is prototype in JavaScript?
+ object property called prototype.
  
  
  

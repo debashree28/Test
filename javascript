@@ -72,6 +72,8 @@ The local scope is a function object and its used within the functions.
  Pseudo classical inheritance" and "Prototype inheritance"
  12.What is prototype in JavaScript?
  object property called prototype.
- 
+ 13.difference between '==' and '==='?
+ alert(null == undefined); // return true.
+    // alert(null === undefined); // return false.
  
  

@@ -49,6 +49,8 @@ function sum(a, b) {
  javascript is loosely typed because varibale is declared without type. variable type is determined at time variable assignment.
  var a = 10; ///number
  5.what is scope in javascript?
+ The global scope is a window object and its used out of function and within the functions.
+The local scope is a function object and its used within the functions.
  there are two types of scope 
  local scope and global scope
  variable defined outside  the function is global variable.

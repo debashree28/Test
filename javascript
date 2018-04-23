@@ -75,5 +75,8 @@ The local scope is a function object and its used within the functions.
  13.difference between '==' and '==='?
  alert(null == undefined); // return true.
     // alert(null === undefined); // return false.
+    
+    To begin, a constructor function is just a regular function. 
+    It becomes a constructor when it is called on by an instance with the new keyword.
  
  

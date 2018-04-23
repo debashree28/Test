@@ -78,5 +78,6 @@ The local scope is a function object and its used within the functions.
     
     To begin, a constructor function is just a regular function. 
     It becomes a constructor when it is called on by an instance with the new keyword.
- 
+ Margin is used in an element to create distance between that element and other elements of page. Where padding is used to create distance between content and border of an element.
+Margin is not part of an element where padding is part of element.
  

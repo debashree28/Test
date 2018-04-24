@@ -1,0 +1,8 @@
+1.what is float left?
+element should float to left.
+2.what is display:linline.display:block and display:inline-block?
+display:block it forces line break after each element, and acquire full width if width is not assigned.
+display:linline: elememt have no line break.can not have width and height set.
+it allow left and right margin and padding not top or bottom.
+display:linline-block:it looks like a inline-element but it behaves like a block element.it doesn't allow line break.it allow all side of marign and
+padding and we can also set width and height to element.

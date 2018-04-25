@@ -11,4 +11,17 @@ inline-block automatically take margin between element but float don't take.
 for clear the float need to clear or overflow;auto.
 if we want place the content in center of document then it's easy in inline-block , need to write only text-align:center but in float we have to 
 write many css line to adjust it in center.
+4.what is flex box model in css?
+flex box layout model is used design fexliable responsive design without using float , inline and positioning.
+flex container properties: 
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+.flex-container{
+display:flex
+}
+flex-direction:column,row,column-reverse, row-reverse
+flex-wrap:wrap,nowrap
 

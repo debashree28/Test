@@ -24,4 +24,6 @@ display:flex
 }
 flex-direction:column,row,column-reverse, row-reverse
 flex-wrap:wrap,nowrap
-
+5.difference between visibility:hidden and display:none?
+visiblity:hide=== it simple hide the element and occupy space in layout document
+display:none====it simple hide the element and don't occupy space in layout document

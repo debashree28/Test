@@ -27,3 +27,5 @@ flex-wrap:wrap,nowrap
 5.difference between visibility:hidden and display:none?
 visiblity:hide=== it simple hide the element and occupy space in layout document
 display:none====it simple hide the element and don't occupy space in layout document
+Margin is used in an element to create distance between that element and other elements of page. Where padding is used to create distance between content and border of an element.
+Margin is not part of an element where padding is part of element.

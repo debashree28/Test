@@ -6,3 +6,9 @@ display:linline: elememt have no line break.can not have width and height set.
 it allow left and right margin and padding not top or bottom.
 display:linline-block:it looks like a inline-element but it behaves like a block element.it doesn't allow line break.it allow all side of marign and
 padding and we can also set width and height to element.
+3.what is difference between float:left and display:inline-block?
+inline-block automatically take margin between element but float don't take.
+for clear the float need to clear or overflow;auto.
+if we want place the content in center of document then it's easy in inline-block , need to write only text-align:center but in float we have to 
+write many css line to adjust it in center.
+

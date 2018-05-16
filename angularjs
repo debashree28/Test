@@ -22,3 +22,8 @@ outside world (the world on the other side of the wall).
 The 3 options are referred to as Local Scope Properties and
 can be defined using the @, =, and & characters mentioned earlier. Here’s how they work.
 https://weblogs.asp.net/dwahlin/creating-custom-angularjs-directives-part-2-isolate-scope
+5.what is difference between $apply() and $digest()?
+digest cycle only update child scope and current scope.apply() update every scope.
+6.angular.copy()
+7.difference between service and factory?
+https://tmconnect.webex.com/tmconnect/j.php?MTID=mb4fd76123c86fdc0f2f283f68e690c88

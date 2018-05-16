@@ -5,3 +5,20 @@ automatic synchronization of data between model amd view.
 controller is nothing but javascript function which provides data and logic to html ui.
 it controllers data flow between server and html ui
 4.what is difference between link and compile?
+angular directive
+extend html
+reusable component
+The compile() and link() functions define how the directive is to modify the HTML that matched the directive.
+The compile() function is called once for each occurrence of the directive in the HTML page. 
+The compile() function can then do any one-time configuration needed of the element containing the directive.
+
+The compile() function finishes by returning the link() function. 
+The link() function is called every time the element is to be bound to data in the $scope object.
+The compile() function takes two parameters: The element and attributes parameters.
+The link() function takes three parameters: The $scope parameter, the element parameter and the attributes parameter.
+Directives have access to the parent scope by default in AngularJS applications
+Directives that use isolate scope provide 3 different options to interact with the
+outside world (the world on the other side of the wall).
+The 3 options are referred to as Local Scope Properties and
+can be defined using the @, =, and & characters mentioned earlier. Here’s how they work.
+https://weblogs.asp.net/dwahlin/creating-custom-angularjs-directives-part-2-isolate-scope

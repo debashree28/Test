@@ -27,3 +27,17 @@ digest cycle only update child scope and current scope.apply() update every scop
 6.angular.copy()
 7.difference between service and factory?
 https://tmconnect.webex.com/tmconnect/j.php?MTID=mb4fd76123c86fdc0f2f283f68e690c88
+
+================================
+sanitization used to convert untrusted value into trusted value that is safe to insert in DOM.
+Angular santize untrusted value of HTML, style and url.
+<p class="e2e-inner-html-interpolated">{{htmlSnippet}}</p>
+it's advisable not to use innerHTML, always use {{}} because interpolated content is always escaped.
+Avoid direct use of the DOM APIs:
+================================
+avoid direct intercation to DOM instead of use Angular Template
+
+Content security policy
+==============================
+
+Use the offline template compiler

@@ -42,6 +42,42 @@ Content security policy
 
 Use the offline template compiler
 
+Server-side XSS protection
+=======================
 
+Trusting safe values 
+-------------------------
+inject DomSanitizer and call one of the following methods:
+bypassSecurityTrustHtml
+bypassSecurityTrustScript
+bypassSecurityTrustStyle
+bypassSecurityTrustUrl
+bypassSecurityTrustResourceUrl
 
+HTTP-level vulnerabilities
+================================
+Angular has two buildin support to prevent two http vulnerablities cross-site request forgery and cross-site script inclusion.
+
+Cross-site request forgery 
+====================================
+In a cross-site request forgery (CSRF or XSRF), an attacker tricks the user into visiting a different web page (such as evil.com) 
+with malignant code that secretly sends a malicious request to the application's web server (such as example-bank.com).
+
+To prevent this, the application must ensure that a user request originates from the real application, not from a different site. 
+The server and client must cooperate to thwart this attack.
+In a common anti-XSRF technique, the application server sends a randomly generated authentication token in a cookie. 
+The client code reads the cookie and adds a custom request header with the token in all subsequent requests.
+The server compares the received 
+cookie value to the request header value and rejects the request if the values are missing or don't match.
+
+Cross-site script inclusion (XSSI) 
+=======================================
+Cross-site script inclusion, also known as JSON vulnerability.
+can allow an attacker's website to read data from a JSON API. The attack works on older browsers by overriding native JavaScript object constructors, 
+and then including an API URL using a <script> tag.
+ Servers can prevent an attack by prefixing all JSON responses to make them non-executable, 
+ by convention, using the well-known string ")]}',\n".
+ 
+ Angular's HttpClient library recognizes this convention and automatically strips the string ")]}',\n" from 
+ all responses before further parsing
 
